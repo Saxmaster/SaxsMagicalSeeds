@@ -1,0 +1,70 @@
+[15:14:12] [Client thread/INFO]: Setting user: Player173
+[15:14:14] [Client thread/INFO]: LWJGL Version: 2.9.4
+[15:14:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
+[15:14:18] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:14:18] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[15:14:18] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:14:18] [Thread-7/INFO]: OpenAL initialized.
+[15:14:19] [Sound Library Loader/INFO]: Sound engine started
+[15:14:20] [Client thread/INFO]: Created: 16x16 textures-atlas
+[15:14:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
+[15:14:21] [Client thread/INFO]: SoundSystem shutting down...
+[15:14:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:14:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:14:22] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:14:22] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:14:22] [Thread-9/INFO]: OpenAL initialized.
+[15:14:22] [Sound Library Loader/INFO]: Sound engine started
+[15:14:23] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:14:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:14:28] [Server thread/INFO]: Starting integrated minecraft server version 1.9.4
+[15:14:28] [Server thread/INFO]: Generating keypair
+[15:14:29] [Server thread/INFO]: Preparing start region for level 0
+[15:14:30] [Server thread/INFO]: Preparing spawn area: 52%
+[15:14:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:14:31] [Server thread/INFO]: Player173[local:E:3095cb21] logged in with entity id 124 at (390.57182262987953, 237.0, -597.3143798874797)
+[15:14:31] [Server thread/INFO]: Player173 joined the game
+[15:14:32] [Server thread/INFO]: Saving and pausing game...
+[15:14:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:14:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:14:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:14:32] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@25ad4c77[id=67c0771c-0b10-3f2c-b5d7-77726e52853d,name=Player173,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3043) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_91]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+[15:14:37] [Server thread/INFO]: Player173 has just earned the achievement [Taking Inventory]
+[15:14:37] [Client thread/INFO]: [CHAT] Player173 has just earned the achievement [Taking Inventory]
+[15:14:42] [Server thread/INFO]: Saving and pausing game...
+[15:14:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:14:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:14:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:14:44] [Client thread/INFO]: Stopping!
+[15:14:44] [Client thread/INFO]: SoundSystem shutting down...
+[15:14:44] [Server thread/INFO]: Stopping server
+[15:14:44] [Server thread/INFO]: Saving players
+[15:14:44] [Server thread/INFO]: Saving worlds
+[15:14:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:14:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:14:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:14:44] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:14:44] [Client Shutdown Thread/INFO]: Stopping server
+[15:14:44] [Client Shutdown Thread/INFO]: Saving players
+[15:14:44] [Client Shutdown Thread/INFO]: Saving worlds
